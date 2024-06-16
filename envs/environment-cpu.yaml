@@ -4,10 +4,7 @@ channels:
     - conda-forge
     - defaults
 dependencies:
-    - python=3.7.10
+    - python=3.8
     - pip=21.3
     - pip:
-          - torch==1.9.0
-          - torchvision==0.10.0
-          - onnxruntime==1.9.0
           - -r ../requirements.txt
